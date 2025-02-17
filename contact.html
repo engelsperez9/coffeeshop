@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"/>
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/brands.css"/>
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/solid.css"/>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+  
+<title>CoffeeShop</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="index.html">Home </a>
+            <a class="nav-item nav-link" href="about.html">About</a>
+            <a class="nav-item nav-link" href="menu.html">Menu</a>
+            <a class="nav-item nav-link active" href="contact.html">Contact <span class="sr-only">(current)</span></a>
+          </div>
+          <div class="cofee-shop-logo" >
+            <h1> The Coffee Shop</h1>
+          </div>
+        </div>
+      </nav>
+
+
+    <main>
+
+<section class="home">
+
+<section class="contact py-5" id="contact">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <form>
+        <div class="row">
+          <!-- Name Field -->
+          <div class="col-md-6 mb-3">
+            <label for="name" class="form-label">Full Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+          </div>
+  
+          <!-- Email Field -->
+          <div class="col-md-6 mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+          </div>
+        </div>
+  
+        <div class="mb-3">
+          <!-- Subject Field -->
+          <label for="subject" class="form-label">Subject</label>
+          <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+        </div>
+  
+        <div class="mb-3">
+          <!-- Message Field -->
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+  
+        <!-- Submit Button -->
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </div>
+      </form>
+    </div>
+    <div class="text-center">
+        <h1 class="mt-5"> Visit Us @</h1>
+        <h3 class="mt-2"> The Coffee Shop</h3>
+        <h2 class="mt-2"> Harvard Street, Boston, MA 02142</h2>
+
+    </div>
+  </section>
+</main>
+
+
+ <!-- footer -->
+ <footer style="position: fixed;">
+    <div class="container">
+        <div class="row row_footer align-items-center offset-md-2">
+
+            <div class="col-6 col-sm-5 text-center">
+                <h5>Social</h5>
+                <a href="http://instagram.com/"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                <a href="http://facebook.com/"><i class="fa-brands fa-facebook fa-xl"></i></a>
+                <a href="http://twitter.com/"><i class="fa-brands fa-twitter fa-xl"></i></a>
+                <a href="http://youtube.com/"><i class="fa-brands fa-youtube fa-xl"></i></a>
+            </div>
+            <div class="col-sm-4">
+                <i class="fa-solid fa-phone fa-lg text-primary"></i> 1-206-555-1234 <br/>
+                <i class="fa-solid fa-envelope fa-lg text-primary"></i> contact@thecoffeshop.com
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap JavaScript plugins -->
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
